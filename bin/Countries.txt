@@ -1,6 +1,6 @@
-China	1439323776
+China	1439323775
 India	1380004385
-United States	331002651
+The United States	331002651
 Indonesia	273523615
 Pakistan	220892340
 Brazil	212559417

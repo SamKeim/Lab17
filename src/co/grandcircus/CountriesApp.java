@@ -87,10 +87,10 @@ public class CountriesApp {
 		int i = 1;
 		switch(key){
 			case 1:
-				Collections.sort(countries);
+				Collections.sort(countries, new NameSorter());
 				break;
 			case 2:
-				System.out.println("Fixme");
+				Collections.sort(countries, new PopulationSorter());
 				break;
 			default:
 				break;				

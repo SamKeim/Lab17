@@ -4,7 +4,7 @@ import java.nio.file.Paths;
 
 import co.grandcircus.LineConverter;
 
-public class Country implements Comparable<Country>{
+public class Country{
 	private String name;
 	private long population;
 	public String getName() {
@@ -30,9 +30,10 @@ public class Country implements Comparable<Country>{
 		return String.format("%20s   ||   %,d\n", name, population);
 	}
 	
-	@Override
-	public int compareTo(Country country) {
-		return this.getName().compareTo(country.getName());
-	}
+//	@Override
+//	public int compareTo(Country country) {
+//		return this.getName().compareTo(country.getName());
+//	}
+	
 	
 }
